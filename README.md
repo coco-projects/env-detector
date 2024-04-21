@@ -1,1 +1,12 @@
-# env-detector
+
+## Testing
+
+``` bash
+composer test
+```
+
+## License
+
+---
+
+MIT
