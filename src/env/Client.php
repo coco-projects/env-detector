@@ -80,17 +80,17 @@ class Client
 
     public function getClientVersion()
     {
-        return $this->clientInfo['version'];
+        return $this->clientInfo['version'] ?? "";
     }
 
     public function getClientName()
     {
-        return $this->clientInfo['name'];
+        return $this->clientInfo['name'] ?? "";
     }
 
     public function getClientType()
     {
-        return $this->clientInfo['type'];
+        return $this->clientInfo['type'] ?? "";
     }
 
     public function getBrowserFamily()
@@ -100,27 +100,27 @@ class Client
 
     public function getOsName()
     {
-        return $this->osInfo['name'];
+        return $this->osInfo['name'] ?? "";
     }
 
     public function getOsShortName()
     {
-        return $this->osInfo['short_name'];
+        return $this->osInfo['short_name'] ?? "";
     }
 
     public function getOsVersion()
     {
-        return $this->osInfo['version'];
+        return $this->osInfo['version'] ?? "";
     }
 
     public function getOsPlatform()
     {
-        return $this->osInfo['platform'];
+        return $this->osInfo['platform'] ?? "";
     }
 
     public function getOsFamily()
     {
-        return $this->osInfo['family'];
+        return $this->osInfo['family'] ?? "";
     }
 
     public function getDeviceName(): string

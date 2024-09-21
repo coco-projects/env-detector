@@ -4,8 +4,8 @@
 
     namespace Coco\envDetector\env;
 
-    use STS\Phpinfo\Info;
-    use STS\Phpinfo\Result;
+use Coco\phpinfoParser\Result;
+use Coco\phpinfoParser\Info;
 
 class Php
 {

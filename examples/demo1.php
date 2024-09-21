@@ -4,7 +4,7 @@
 
     require '../vendor/autoload.php';
 
-    $env = Factory::getIns(new \Coco\envDetector\ip2Region\Channel3('a48bee79df07af'));
+//    $env = Factory::getIns(new \Coco\envDetector\ip2Region\Channel3('a48bee79df07af'));
     $env = Factory::getIns(new \Coco\envDetector\ip2Region\Channel2());
 
     echo 'getIp' . PHP_EOL;

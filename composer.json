@@ -9,7 +9,7 @@
 		"itbdw/ip-database"            : "^3.0",
 		"matomo/device-detector"       : "^6.3",
 		"mobiledetect/mobiledetectlib" : "^3.74",
-		"stechstudio/phpinfo"          : "^0.3.0",
+		"coco-project/phpinfo-parser"  : "^1.0",
 		"typomedia/sysinfo"            : "^1.0",
 		"vectorface/whip"              : "^0.5.0",
 		"zoujingli/ip2region"          : "^2.0"
